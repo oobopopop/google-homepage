@@ -1,6 +1,6 @@
 ul{
     list-style-type: none;
-    margin: 0;
+    margin-top: 16px;
     padding: 0;
 }
 
@@ -9,12 +9,18 @@ li{
 }
 
 li a{
+    text-decoration: none;
     color: black;
     font-size: 14px;
+    font-family: arial, sans-serif;
+    margin-left: 16px;
 }
 
 .right{
     float: right;
+    margin-left: 0;
+    margin-right: 16px;
+    text-align: left;
 }
 
 .navbar-top{
@@ -27,6 +33,10 @@ li a{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.navbar-bot li a{
+    color: gray;
 }
 
 .center {
