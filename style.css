@@ -1,3 +1,8 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 ul{
     list-style-type: none;
     margin-top: 16px;
@@ -6,6 +11,8 @@ ul{
 
 li{
     display: inline;
+    text-align: center;
+    margin-left: 16px;
 }
 
 li a{
@@ -13,14 +20,12 @@ li a{
     color: black;
     font-size: 14px;
     font-family: arial, sans-serif;
-    margin-left: 16px;
 }
 
 .right{
     float: right;
     margin-left: 0;
     margin-right: 16px;
-    text-align: left;
 }
 
 .navbar-top{
