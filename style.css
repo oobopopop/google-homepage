@@ -48,9 +48,41 @@ li a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 13%;
   }
 
 #form-container {
     text-align: center;
+}
+
+.sign-in{
+background-color: rgb(43, 125, 233);
+background-size: auto;
+font-size: 14px;
+font-weight: 500;
+color: white;
+border-radius: 4px;
+padding: 10px 25px;
+}
+
+.apps-logo{
+    height: 20px;
+    width: 20px;
+}
+
+input[type=text]{
+    box-sizing: border-box;
+    min-width: 600px;
+    border: 2px solid rgba(211, 209, 206, 0.30);
+    border-radius: 24px;
+    background-image: url(search-icon.png);
+    background-position: 10px center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+}
+
+form{
+    padding: 20px
 }
