@@ -56,13 +56,18 @@ li a{
 }
 
 .sign-in{
-background-color: rgb(43, 125, 233);
+background-color: #1a73e8;
 background-size: auto;
 font-size: 14px;
 font-weight: 500;
 color: white;
 border-radius: 4px;
 padding: 10px 25px;
+}
+
+.sign-in:hover{
+    background-color: rgb(43, 125, 233);
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
 .apps-logo{
@@ -81,6 +86,11 @@ input[type=text]{
     background-repeat: no-repeat;
     background-color: white;
     padding: 12px 20px 12px 40px;
+    outline: none;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 
 form{
@@ -92,6 +102,11 @@ button{
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     padding: 10px 20px;
+    margin-right: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     color: #3c4043;
+}
+
+button:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
