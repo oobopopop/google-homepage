@@ -1,6 +1,8 @@
 body, html{
     margin: 0;
     padding: 0;
+    font-family: arial,sans-serif;
+    font-size: 14px;
 }
 
 ul{
@@ -18,8 +20,6 @@ li{
 li a{
     text-decoration: none;
     color: black;
-    font-size: 14px;
-    font-family: arial, sans-serif;
 }
 
 .right{
@@ -85,4 +85,13 @@ input[type=text]{
 
 form{
     padding: 20px
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #3c4043;
 }
